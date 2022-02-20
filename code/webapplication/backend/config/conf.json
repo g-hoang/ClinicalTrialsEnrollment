@@ -1,0 +1,23 @@
+{
+    "lgbm_params_file": "config/lgbm_best_params.json",
+    "xgb_params_file": "config/xgb_best_params.json",
+    "fields_to_retrieve": ["OrgClass", "Condition", "LeadSponsorClass", "CollaboratorClass", "EnrollmentType", "EnrollmentCount", "Phase", "HealthyVolunteers", "Gender", "StdAge", "LocationFacility", "LocationCity", "LocationCountry", "IsFDARegulatedDrug", "IsFDARegulatedDevice", "ArmGroupLabel", "EnrollmentDuration", "InterventionName", "StartDate", "DesignPrimaryPurpose", "MaximumAge", "MinimumAge", "OrgFullName", "ConditionAncestorTerm", "ConditionBrowseBranchAbbrev", "ConditionMeshId", "LocationState", "LocationPopulationDensity"],
+    "mandatory_fields_for_prediction": ["OrgClass", "Condition", "LeadSponsorClass", "CollaboratorClass", "EligibilityCriteria", "EnrollmentType", "EnrollmentCount", "Phase", "HealthyVolunteers", "Gender", "StdAge", "LocationFacility", "LocationCity", "LocationCountry", "IsFDARegulatedDrug", "IsFDARegulatedDevice", "ArmGroupLabel", "InterventionName", "StartDate", "DesignPrimaryPurpose", "MaximumAge", "MinimumAge", "OrgFullName", "ConditionAncestorTerm", "ConditionBrowseBranchAbbrev", "ConditionMeshId", "LocationPopulationDensity","OfficialTitle", "BriefSummary"],
+    "mongo_client_1": {
+        "url": "clinicaltrials-exomh.mongodb.net/test?retryWrites=true&w=majority",
+        "username": "sovanta",
+        "password": "Si8T8TtsViHYenjx"
+    },
+    "mongo_client_2": {
+        "url": "cluster0-3yb0b.mongodb.net/test?retryWrites=true&w=majority",
+        "username": "sovanta",
+        "password": "14FgeCSTCZF9HNVw"
+    },
+    "preprocessing_service": {
+        "port": 1235
+    },
+    "api_service": {
+        "port": 1234
+    },
+    "feature_selection": []
+}
