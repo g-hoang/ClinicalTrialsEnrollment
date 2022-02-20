@@ -18,12 +18,7 @@ logging.basicConfig(
 )
 
 payload = {
-    # 'key': 'AIzaSyAS-tPZOE6w-OXEimN-J6eqTbpp_dIKaUU', # Lukas's key
-    # 'key': 'AIzaSyBQo2nUei85kArWNEkF9CVADojvqKnOE6U', # Giang's key
-    # 'key': 'AIzaSyD708I-aJ4I28GBsEHhb3uzFmwkwCaeNuA', # An consult
-    # 'key': 'AIzaSyDt_O1abDXrd2Wb3V1cObWzDvEfxyiMF6w', # 2
-    'key': 'AIzaSyA9ShzICAC1f5F6RFTxfGg8skvsUz25_LI', # 3
-    # 'key': 'AIzaSyAUU3Cfzjdfwu4aU7xxmhszIKCYbqJVnnI', # Dung
+    'key': 'abc123',
     'input': '',
     'inputtype': 'textquery',
     'fields': 'business_status,formatted_address,geometry,name,place_id,types',

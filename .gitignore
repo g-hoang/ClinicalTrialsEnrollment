@@ -19,3 +19,4 @@ code/webapplication/backend/wsgi.py
 code/framework/Evaluation_and_Optimization_Framework.ipynb
 code/framework/HyperOpt_and_Models.ipynb
 .idea/*
+code/.vscode
